@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding-inline: 20px;
+  margin: 0 auto;
+}
+
+.page {
+  flex-grow: 1;
+}/*# sourceMappingURL=main.css.map */
